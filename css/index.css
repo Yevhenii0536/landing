@@ -139,7 +139,6 @@ nav>ul {
 }
 
 #hero>h2 {
-  margin-bottom: 20px;
   word-wrap: break-word;
 }
 
@@ -250,39 +249,6 @@ nav>ul {
   max-height: calc(100%/2.5);
 }
 
-.product>.level {
-  background-color: #ddd;
-  color: black;
-  padding: 15px 0;
-  width: 100%;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.product>h2 {
-  margin-top: 15px;
-}
-
-.product>ol {
-  margin: 15px 0;
-}
-
-.product>ol>li {
-  padding: 5px 0;
-}
-
-.product>button {
-  border: 0;
-  margin: 15px 0;
-  background-color: #f1c40f;
-  font-weight: 400;
-}
-
-.product>button:hover {
-  background-color: orange;
-  transition: background-color 1s;
-}
-
 @media (max-width: 800px) {
   #pricing {
     flex-direction: column;
@@ -333,5 +299,12 @@ footer>span {
   margin-top: 5px;
   display: flex;
   justify-content: center;
-  font-size: 0.9em;
+  font-size: 0.5em;
+  text-decoration: underline;
+}
+
+.mail_img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-bottom: 5px;
 }
